@@ -51,6 +51,15 @@
             android:summary="@string/lockdown_settings_summary"
             settings:controller="com.android.settings.security.LockdownButtonPreferenceController" />
 
+        <Preference
+            android:key="clock_style"
+            android:title="@string/clock_style_title"
+            android:summary="@string/clock_style_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.android.wallpaper"
+                android:targetClass="com.android.customization.picker.LockClockPickerActivity" />
+        </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
