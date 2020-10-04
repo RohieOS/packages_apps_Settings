@@ -70,4 +70,9 @@
     <string name="ambient_notification_light_accent_title">System accent color</string>
     <string name="ambient_notification_light_color_automatic_title">Notification color</string>
     <string name="pulse_ambient_light_color">When pulsing, use</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
 </resources>
