@@ -44,4 +44,16 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
+    <!-- Support -->
+    <string name="ok">OK</string>
+    <string name="edit_hint">Value</string>
+    <string name="seek_value_edit_label">Set value</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">Network traffic monitor</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_dynamic">Dynamic indicator</string>
+    <string name="network_traffic_dynamic_summary">Autmotically switch between uplink and downlink</string>
+    <string name="network_traffic_type">Select net activity type</string>
 </resources>
