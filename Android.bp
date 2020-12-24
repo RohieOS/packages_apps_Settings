@@ -28,7 +28,7 @@ android_library {
         "framework-wifi-vendor-hide-access-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java", "src/**/*.kt"],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -59,6 +59,7 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "VendorSupport-preference",
         "faceunlock_framework",
+        "lottie",
     ],
 
     libs: [
