@@ -17,6 +17,7 @@
     <string name="rohie_version_title">Rohie version</string>
     <string name="build_date">Build date</string>
     <string name="build_maintainer">Build maintainer</string>
+    <string name="rohie_version_keywords">rohie, caf, rohie version</string>
 
     <!-- CAF tag version in About phone -->
     <string name="caf_revision_tag">CAF revision</string>
