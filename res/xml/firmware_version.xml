@@ -21,13 +21,6 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Animation -->
-    <Preference
-        android:key="rohie_anim"
-        android:clickable="true"
-        android:layout="@layout/rohie_anim"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomLogoPreferenceController" />
-
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -42,16 +35,8 @@
         android:key="rohie_version"
         android:title="@string/rohie_version_title"
         android:summary="@string/device_info_default"
-        settings:enableCopying="true"
+        android:fragment="com.android.settings.deviceinfo.firmwareversion.RohieVersionSettings"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.RohieVersionPreferenceController"/>
-
-    <!-- CAF Revision -->
-    <Preference
-        android:key="caf_revision"
-        android:title="@string/caf_revision_tag"
-        android:summary="@string/device_info_default"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.CAFVersionPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
@@ -85,23 +70,6 @@
         android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
-
-    <!-- Build -->
-    <!-- Build maintainer -->
-    <Preference
-        android:key="os_build_maintainer"
-        android:title="@string/build_maintainer"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomBuildMaintainerPreferenceController"/>
-
-    <!-- Build date -->
-    <Preference
-        android:key="os_build_date"
-        android:title="@string/build_date"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomBuildDatePreferenceController"/>
 
     <!-- Build number 
     <Preference
