@@ -18,6 +18,7 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.os.SystemProperties;
+import android.text.TextUtils;
 
 import androidx.annotation.VisibleForTesting;
 
@@ -29,11 +30,9 @@ public class BasebandVersionPreferenceController extends BasePreferenceControlle
 
     @VisibleForTesting
     static final String BASEBAND_PROPERTY = "gsm.version.baseband";
-    private final Context mContext;
 
     public BasebandVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
-        mContext = context;
     }
 
     @Override
@@ -43,17 +42,13 @@ public class BasebandVersionPreferenceController extends BasePreferenceControlle
 
     @Override
     public CharSequence getSummary() {
-        if (Utils.isSupportCTPA(mContext.getApplicationContext())) {
-            String baseBands = SystemProperties.get(BASEBAND_PROPERTY,
-                    mContext.getString(R.string.device_info_default));
-            if (null != baseBands) {
-                String[] baseBandArray = baseBands.split(",");
-                if ((baseBandArray != null) && (baseBandArray.length > 0)) {
-                    return baseBandArray[0];
-                }
+        String baseband = SystemProperties.get(BASEBAND_PROPERTY,
+                mContext.getString(R.string.device_info_default));
+        for (String str : baseband.split(",")) {
+            if (!TextUtils.isEmpty(str)) {
+                return str;
             }
         }
-        return SystemProperties.get(BASEBAND_PROPERTY,
-                mContext.getString(R.string.device_info_default));
+        return baseband;
     }
 }
