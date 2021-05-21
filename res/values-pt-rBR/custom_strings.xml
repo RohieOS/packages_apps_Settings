@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Rohie version in About phone -->
+    <string name="rohie_version_title">Versão da Rohie</string>
+    <string name="build_date">Data da compilação</string>
+    <string name="build_maintainer">Mantenedor</string>
+    <string name="rohie_version_keywords">rohie, caf, rohie versão</string>
+
+    <!-- CAF tag version in About phone -->
+    <string name="caf_revision_tag">Revisão CAF</string>
+
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Localize o sensor de impressões digitais na frente do seu celular.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Localize o sensor de impressões digitais no lado esquerdo do seu celular.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Localize o sensor de impressões digitais no lado direito do seu celular.</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de impressões digitais na frente do seu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Localize o sensor de impressões digitais no lado esquerdo do seu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Localize o sensor de impressões digitais no lado direito do seu dispositivo.</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressões digitais na frente do seu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localize o sensor de impressões digitais no lado esquerdo do seu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localize o sensor de impressões digitais no lado direito do seu tablet.</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Taxa de atualização da tela</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Associar volumes de toque &amp; notificação</string>
+
+    <!-- Support -->
+    <string name="ok">OK</string>
+    <string name="edit_hint">Valor</string>
+    <string name="seek_value_edit_label">Definir valor</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="net_monitor_category_title">Monitor de tráfego de rede</string>
+    <string name="network_traffic_state_title">Mostrar atividade de rede na barra de status</string>
+    <string name="network_traffic_autohide_threshold_title">Limite para auto ocultar atividade de rede (KB/s)</string>
+    <string name="network_traffic_dynamic">Indicador dinâmico</string>
+    <string name="network_traffic_dynamic_summary">Trocar automaticamente entre uplink e downlink</string>
+    <string name="network_traffic_type">Selecionar tipo de atividade de rede</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">Estado do SELinux</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Forçando</string>
+
+    <!-- Horizon Light -->
+    <string name="pulse_ambient_light_title">Notificações de borda</string>
+    <string name="pulse_ambient_light_summary">Iluminar as bordas laterais da tela num pulso de notificação</string>
+    <string name="ambient_notification_light_accent_title">Cor de destaque do sistema</string>
+    <string name="ambient_notification_light_color_automatic_title">Cor da notificação</string>
+    <string name="pulse_ambient_light_color">Ao pulsar, usar</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Tamanho da barra de gestos</string>
+    <string name="hidden_label">Escondido</string>
+    <string name="long_label">Longo</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Lanterna rápida</string>
+    <string name="power_button_torch_summary">Quando a tela estiver desligada, segurar o botão de energia ativará a lanterna</string>
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove o rosto cadastrado atual e adiciona um novo</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refazer cadastramento de rosto</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Bloqueio de tela, impressão digital, desbloqueio facial</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Você quer remover o rosto cadastrado existente e adicionar um novo?</string>
+
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduz o cansaço visual em condições de baixa luminosidade mas pode resultar em qualidade reduzida de imagem e produção de cor ruim.</string>
+    <string name="dc_dimming_auto_mode_title">Programar</string>
+    <string name="dc_dimming_mode_brightness">Ativar quando o brilho estiver abaixo do limite</string>
+    <string name="dc_dimming_mode_full">Depende de horário e brilho</string>
+    <string name="dc_dimming_brightness_title">Limite de brilho</string>
+    <string name="dc_dimming_brightness_disabled">Desativado</string>
+    <string name="dc_dimming_restore_auto_mode">Restaurar modo automático</string>
+    <string name="dc_dimming_brightness_info">Ativar o DC Dimming apenas quando o brilho médio estiver abaixo do limite</string>
+    <string name="dc_dimming_off_auto_mode_auto">Será ativado automaticamente</string>
+    <string name="dc_dimming_on_auto_mode_auto">Será desativado automaticamente</string>
+    <string name="keywords_display_dc_dimming">dc dimming, cintilação, olho, cansaço</string>
+
+    <!-- App Lock -->
+    <string name="applock_title">Bloqueador de aplicativos</string>
+    <string name="applock_locked">Bloqueado</string>
+    <string name="applock_unlocked">Desbloqueado</string>
+    <string name="applock_locked_apps">Aplicativos bloqueados</string>
+    <string name="applock_unlocked_apps">Aplicativos desbloqueados</string>
+    <string name="applock_show_only_on_wake">Autenticar apenas uma vez</string>
+    <string name="applock_show_only_on_wake_on_summary">Uma vez autenticado, um aplicativo continua desbloqueado até a tela apagar</string>
+    <string name="applock_show_only_on_wake_off_summary">Uma vez autenticado, um aplicativo continua desbloqueado por 15 segundos após sair</string>
+    <string name="applock_notification_info">Você pode mostrar/esconder o conteúdo das notificações por aplicativo clicando no ícone de notificação exibido em cada aplicativo bloqueado\' preferência</string>
+    <string name="applock_show_notif">Mostrando o conteúdo das notificações</string>
+    <string name="applock_hide_notif">Escondendo o conteúdo das notificações</string>
+    <string name="applock_setup">Configurar o bloqueador de aplicativos</string>
+    <string name="applock_overlay_summary">Esse recurso está indisponível pois o aplicativo está bloqueado</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplicativo bloqueado</item>
+        <item quantity="other">%d aplicativos bloqueados</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, bloquear aplicativo, bloqueador de aplicativos</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Deslize para captura de tela</string>
+    <string name="swipe_to_screenshot_gesture_summary">Deslize três dedos para capturar a tela</string>
+
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Evitar despertar acidental</string>
+    <string name="proximity_wake_summary">Checar o sensor de proximidade antes de acordar a tela</string>
+
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Alta sensibilidade ao toque</string>
+    <string name="high_touch_sensitivity_summary">Aumentar a sensibilidade da tela sensível ao toque permitindo o uso com luvas</string>
+
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Pairar sobre a tela</string>
+    <string name="touchscreen_hovering_summary">Permite que você paire o dedo sobre a tela como um cursor em navegadores web, áreas de trabalho remotas, etc</string>
+
+    <!-- Volume Panel Plugin -->
+    <string name="volume_panel">Estilo do painel de volume</string>
+    <string name="volume_panel_stock">Stock AOSP Panel</string>
+    <string name="volume_panel_aosp">AOSP Expanded</string>
+    <string name="volume_panel_compact">Compact</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Tiled</string>
+
+    <!-- Volume Panel Plugin Values -->
+    <string name="volume_panel_stock_val" translatable="false">com.android.systemui.volume</string>
+    <string name="volume_panel_aosp_val" translatable="false">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compact_val" translatable="false">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val" translatable="false">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val" translatable="false">co.potatoproject.plugin.volume.tiled</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Toque duplo</string>
+    <string name="doze_double_tap_title">Toque duplo para conferir o dispositivo</string>
+    <string name="doze_double_tap_summary">Exibir notificações ao tocar duas vezes</string>
+
+    <!-- Clock style -->
+    <string name="clock_style_title">Estilo do relógio</string>
+    <string name="clock_style_summary">Personalizar relógio da tela de bloqueio</string>
+
+</resources>
